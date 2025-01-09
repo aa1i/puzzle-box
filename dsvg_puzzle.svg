@@ -16,35 +16,35 @@
 <text x="158.5" y="29.0" font-size="3" stroke="blue">Box Side</text>
 </g>
 <g id="top_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M181.9,4.9 L181.9,8.1 L193.4,8.1 H196.4 V11.1 H202.6 V8.1 H208.4 V11.1 H214.6 V8.1 H220.4 V11.1 H226.6 V8.1 H232.4 V11.1 H238.6 V8.1 H244.4 V11.1 H250.6 V8.1 H256.4 V11.1 H262.6 V8.1 H268.4 V11.1 H274.6 V8.1 L289.1,8.1 L289.1,4.9 L181.9,4.9 Z" />
+<path d="M181.9,4.9 L181.9,8.0 L193.4,8.0 H196.4 V11.0 H202.6 V8.0 H208.4 V11.0 H214.6 V8.0 H220.4 V11.0 H226.6 V8.0 H232.4 V11.0 H238.6 V8.0 H244.4 V11.0 H250.6 V8.0 H256.4 V11.0 H262.6 V8.0 H268.4 V11.0 H274.6 V8.0 L289.1,8.0 L289.1,4.9 L181.9,4.9 Z" />
 </g>
 <g id="top_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M181.9,11.9 L181.9,15.1 L193.4,15.1 H196.4 V18.1 H202.6 V15.1 H208.4 V18.1 H214.6 V15.1 H220.4 V18.1 H226.6 V15.1 H232.4 V18.1 H238.6 V15.1 H244.4 V18.1 H250.6 V15.1 H256.4 V18.1 H262.6 V15.1 H268.4 V18.1 H274.6 V15.1 L289.1,15.1 L289.1,11.9 L181.9,11.9 Z" />
+<path d="M181.9,11.9 L181.9,15.0 L193.4,15.0 H196.4 V18.0 H202.6 V15.0 H208.4 V18.0 H214.6 V15.0 H220.4 V18.0 H226.6 V15.0 H232.4 V18.0 H238.6 V15.0 H244.4 V18.0 H250.6 V15.0 H256.4 V18.0 H262.6 V15.0 H268.4 V18.0 H274.6 V15.0 L289.1,15.0 L289.1,11.9 L181.9,11.9 Z" />
 </g>
 <g id="top_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M181.9,18.9 L181.9,22.1 L193.4,22.1 H196.4 V25.1 H202.6 V22.1 H208.4 V25.1 H214.6 V22.1 H220.4 V25.1 H226.6 V22.1 H232.4 V25.1 H238.6 V22.1 H244.4 V25.1 H250.6 V22.1 H256.4 V25.1 H262.6 V22.1 H268.4 V25.1 H274.6 V22.1 L289.1,22.1 L289.1,18.9 L181.9,18.9 Z" />
+<path d="M181.9,18.9 L181.9,22.0 L193.4,22.0 H196.4 V25.0 H202.6 V22.0 H208.4 V25.0 H214.6 V22.0 H220.4 V25.0 H226.6 V22.0 H232.4 V25.0 H238.6 V22.0 H244.4 V25.0 H250.6 V22.0 H256.4 V25.0 H262.6 V22.0 H268.4 V25.0 H274.6 V22.0 L289.1,22.0 L289.1,18.9 L181.9,18.9 Z" />
 </g>
 <g id="top_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M181.9,25.9 L181.9,29.1 L193.4,29.1 H196.4 V32.1 H202.6 V29.1 H208.4 V32.1 H214.6 V29.1 H220.4 V32.1 H226.6 V29.1 H232.4 V32.1 H238.6 V29.1 H244.4 V32.1 H250.6 V29.1 H256.4 V32.1 H262.6 V29.1 H268.4 V32.1 H274.6 V29.1 L289.1,29.1 L289.1,25.9 L181.9,25.9 Z" />
+<path d="M181.9,25.9 L181.9,29.0 L193.4,29.0 H196.4 V32.0 H202.6 V29.0 H208.4 V32.0 H214.6 V29.0 H220.4 V32.0 H226.6 V29.0 H232.4 V32.0 H238.6 V29.0 H244.4 V32.0 H250.6 V29.0 H256.4 V32.0 H262.6 V29.0 H268.4 V32.0 H274.6 V29.0 L289.1,29.0 L289.1,25.9 L181.9,25.9 Z" />
 </g>
 <g id="side_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M181.9,32.9 L181.9,36.1 L187.9,36.1 H190.9 V39.1 H197.1 V36.1 H202.9 V39.1 H209.1 V36.1 L218.1,36.1 L218.1,32.9 L181.9,32.9 Z" />
+<path d="M181.9,32.9 L181.9,36.0 L187.9,36.0 H190.9 V39.0 H197.1 V36.0 H202.9 V39.0 H209.1 V36.0 L218.1,36.0 L218.1,32.9 L181.9,32.9 Z" />
 </g>
 <g id="side_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M181.9,39.9 L181.9,43.1 L187.9,43.1 H190.9 V46.1 H197.1 V43.1 H202.9 V46.1 H209.1 V43.1 L218.1,43.1 L218.1,39.9 L181.9,39.9 Z" />
+<path d="M181.9,39.9 L181.9,43.0 L187.9,43.0 H190.9 V46.0 H197.1 V43.0 H202.9 V46.0 H209.1 V43.0 L218.1,43.0 L218.1,39.9 L181.9,39.9 Z" />
 </g>
 <g id="side_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M219.9,32.9 L219.9,36.1 L225.9,36.1 H228.9 V39.1 H235.1 V36.1 H240.9 V39.1 H247.1 V36.1 L256.1,36.1 L256.1,32.9 L219.9,32.9 Z" />
+<path d="M219.9,32.9 L219.9,36.0 L225.9,36.0 H228.9 V39.0 H235.1 V36.0 H240.9 V39.0 H247.1 V36.0 L256.1,36.0 L256.1,32.9 L219.9,32.9 Z" />
 </g>
 <g id="side_rail" fill="none" stroke="black" stroke-width="0.1">
-<path d="M219.9,39.9 L219.9,43.1 L225.9,43.1 H228.9 V46.1 H235.1 V43.1 H240.9 V46.1 H247.1 V43.1 L256.1,43.1 L256.1,39.9 L219.9,39.9 Z" />
+<path d="M219.9,39.9 L219.9,43.0 L225.9,43.0 H228.9 V46.0 H235.1 V43.0 H240.9 V46.0 H247.1 V43.0 L256.1,43.0 L256.1,39.9 L219.9,39.9 Z" />
 </g>
 <g id="back" fill="none" stroke="black" stroke-width="0.1">
 <rect x="5" y="60" width="122.0" height="48.0" stroke="black" />
-<rect x="8.0" y="69.0" width="3.0" height="36.0" stroke="red" />
-<rect x="121.0" y="63.0" width="3.0" height="36.0" stroke="red" />
-<rect x="11.0" y="63.0" width="107.0" height="3.0" stroke="red" />
-<rect x="14.0" y="102.0" width="107.0" height="3.0" stroke="red" />
+<rect x="8.0" y="69.0" width="2.9" height="36.0" stroke="red" />
+<rect x="121.0" y="63.0" width="2.9" height="36.0" stroke="red" />
+<rect x="11.0" y="63.0" width="107.0" height="2.9" stroke="red" />
+<rect x="14.0" y="102.0" width="107.0" height="2.9" stroke="red" />
 <rect x="14.0" y="69.0" width="3.0" height="27.0" stroke="red" />
 <rect x="115.0" y="69.0" width="3.0" height="27.0" stroke="red" />
 <rect x="14.0" y="96.0" width="104.0" height="3.0" stroke="red" />
@@ -79,10 +79,10 @@
 </g>
 <g id="front" fill="none" stroke="black" stroke-width="0.1">
 <rect x="130" y="60" width="122.0" height="48.0" stroke="black" />
-<rect x="133.0" y="63.0" width="3.0" height="36.0" stroke="red" />
-<rect x="246.0" y="69.0" width="3.0" height="36.0" stroke="red" />
-<rect x="139.0" y="63.0" width="107.0" height="3.0" stroke="red" />
-<rect x="136.0" y="102.0" width="107.0" height="3.0" stroke="red" />
+<rect x="133.0" y="63.0" width="2.9" height="36.0" stroke="red" />
+<rect x="246.0" y="69.0" width="2.9" height="36.0" stroke="red" />
+<rect x="139.0" y="63.0" width="107.0" height="2.9" stroke="red" />
+<rect x="136.0" y="102.0" width="107.0" height="2.9" stroke="red" />
 <rect x="139.0" y="69.0" width="3.0" height="27.0" stroke="red" />
 <rect x="240.0" y="69.0" width="3.0" height="27.0" stroke="red" />
 <rect x="139.0" y="96.0" width="104.0" height="3.0" stroke="red" />
@@ -116,63 +116,63 @@
 <text x="178.5" y="78.0" font-size="3" stroke="blue">Front</text>
 </g>
 <g id="left_hold" fill="none" stroke="black" stroke-width="0.1">
-<rect x="5" y="110" width="48.0" height="33.0" stroke="black" />
-<text x="24.0" y="126.5" font-size="3" stroke="blue">L hold</text>
+<rect x="5" y="110" width="47.9" height="33.0" stroke="black" />
+<text x="23.95" y="126.5" font-size="3" stroke="blue">L hold</text>
 </g>
 <g id="left_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="60" y="110" width="42.0" height="39.0" stroke="black" />
-<rect x="57.0" y="113.0" width="48.0" height="33.0" stroke="red" />
+<rect x="57.0" y="113.0" width="47.9" height="33.0" stroke="red" />
 <text x="76.0" y="129.5" font-size="3" stroke="blue">L run</text>
 </g>
 <g id="left_out" fill="none" stroke="black" stroke-width="0.1">
-<rect x="110" y="110" width="48.0" height="48.0" stroke="black" />
+<rect x="110" y="110" width="47.9" height="48.0" stroke="black" />
 <rect x="113.0" y="113.0" width="42.0" height="39.0" stroke="red" />
-<rect x="110" y="116.0" width="48.0" height="33.0" stroke="red" />
-<text x="129.0" y="134.0" font-size="3" stroke="blue">L out</text>
+<rect x="110" y="116.0" width="47.9" height="33.0" stroke="red" />
+<text x="128.95" y="134.0" font-size="3" stroke="blue">L out</text>
 </g>
 <g id="right_hold" fill="none" stroke="black" stroke-width="0.1">
-<rect x="110" y="160" width="48.0" height="33.0" stroke="black" />
-<text x="129.0" y="176.5" font-size="3" stroke="blue">R hold</text>
+<rect x="110" y="160" width="47.9" height="33.0" stroke="black" />
+<text x="128.95" y="176.5" font-size="3" stroke="blue">R hold</text>
 </g>
 <g id="right_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="60" y="150" width="42.0" height="39.0" stroke="black" />
-<rect x="57.0" y="153.0" width="48.0" height="33.0" stroke="red" />
+<rect x="57.0" y="153.0" width="47.9" height="33.0" stroke="red" />
 <text x="76.0" y="169.5" font-size="3" stroke="blue">R run</text>
 </g>
 <g id="right_out" fill="none" stroke="black" stroke-width="0.1">
-<rect x="5" y="145" width="48.0" height="45.0" stroke="black" />
+<rect x="5" y="145" width="47.9" height="45.0" stroke="black" />
 <rect x="8.0" y="148.0" width="42.0" height="39.0" stroke="red" />
-<rect x="5" y="151.0" width="48.0" height="33.0" stroke="red" />
-<text x="24.0" y="167.5" font-size="3" stroke="blue">R out</text>
+<rect x="5" y="151.0" width="47.9" height="33.0" stroke="red" />
+<text x="23.95" y="167.5" font-size="3" stroke="blue">R out</text>
 </g>
 <g id="top_hold" fill="none" stroke="black" stroke-width="0.1">
-<rect x="5" y="195" width="107.0" height="48.0" stroke="black" />
-<text x="53.5" y="219.0" font-size="3" stroke="blue">T hold</text>
+<rect x="5" y="195" width="107.0" height="47.9" stroke="black" />
+<text x="53.5" y="218.95" font-size="3" stroke="blue">T hold</text>
 </g>
 <g id="top_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="115" y="197" width="113.0" height="42.0" stroke="black" />
-<rect x="118.0" y="194.0" width="107.0" height="48.0" stroke="red" />
+<rect x="118.0" y="194.0" width="107.0" height="47.9" stroke="red" />
 <text x="166.5" y="218.0" font-size="3" stroke="blue">T run</text>
 </g>
 <g id="top_out" fill="none" stroke="black" stroke-width="0.1">
-<rect x="160" y="110" width="119.0" height="48.0" stroke="black" />
+<rect x="160" y="110" width="119.0" height="47.9" stroke="black" />
 <rect x="163.0" y="113.0" width="113.0" height="42.0" stroke="red" />
-<rect x="166.0" y="110" width="107.0" height="48.0" stroke="red" />
-<text x="214.5" y="134.0" font-size="3" stroke="blue">T out</text>
+<rect x="166.0" y="110" width="107.0" height="47.9" stroke="red" />
+<text x="214.5" y="133.95" font-size="3" stroke="blue">T out</text>
 </g>
 <g id="bottom_hold" fill="none" stroke="black" stroke-width="0.1">
-<rect x="5" y="245" width="104.0" height="48.0" stroke="black" />
-<text x="52.0" y="269.0" font-size="3" stroke="blue">B hold</text>
+<rect x="5" y="245" width="104.0" height="47.9" stroke="black" />
+<text x="52.0" y="268.95" font-size="3" stroke="blue">B hold</text>
 </g>
 <g id="bottom_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="112" y="247" width="110.0" height="42.0" stroke="black" />
-<rect x="115.0" y="244.0" width="104.0" height="48.0" stroke="red" />
+<rect x="115.0" y="244.0" width="104.0" height="47.9" stroke="red" />
 <text x="162.0" y="268.0" font-size="3" stroke="blue">B run</text>
 </g>
 <g id="bottom_out" fill="none" stroke="black" stroke-width="0.1">
-<rect x="230" y="160" width="48.0" height="116.0" stroke="black" />
+<rect x="230" y="160" width="47.9" height="116.0" stroke="black" />
 <rect x="233.0" y="163.0" width="42.0" height="110.0" stroke="red" />
-<rect x="230" y="166.0" width="48.0" height="104.0" stroke="red" />
-<text x="254.0" y="213.0" font-size="3" stroke="blue">B out</text>
+<rect x="230" y="166.0" width="47.9" height="104.0" stroke="red" />
+<text x="253.95" y="213.0" font-size="3" stroke="blue">B out</text>
 </g>
 </svg>

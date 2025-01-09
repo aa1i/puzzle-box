@@ -3,6 +3,7 @@ import drawsvg as draw
 # thickness of material 
 T = 3.0;
 kerf = 0.1;
+fit = 0.1; # extra space for improved fit
 
 cut_color = 'black'
 label_color = 'blue'
@@ -44,10 +45,10 @@ box_side_width  =  3.0 * T + add_depth;
 box_side_thick  = T;
 
 top_rail_width  = 11.0 * T + add_width;
-top_rail_height =  1.0 * T;
+top_rail_height =  1.0 * T - fit;
 
 side_rail_width  = 6.0 * T + add_depth;
-side_rail_height = 1.0 * T;
+side_rail_height = 1.0 * T - fit;
 
 back_width  = 16.0*T + add_width;
 back_height = 10.0*T + add_depth;
@@ -117,41 +118,41 @@ front_box_right_y = 3.0*T;
 front_box_base_x = 3.0*T;
 front_box_base_y = front_height - 4.0*T;
 
-left_holder_width  = 8.0 * T + add_height;
+left_holder_width  = 8.0 * T + add_height - fit ;
 left_holder_height = 5.0 * T + add_depth;
 
 left_runner_width  = 6.0 * T + add_height;
 left_runner_height = 7.0 * T + add_depth;
 
-left_outer_width  =  8.0 * T + add_height;
+left_outer_width  =  8.0 * T + add_height - fit;
 left_outer_height = 10.0 * T + add_depth;
 
-right_holder_width  = 8.0 * T + add_height;
+right_holder_width  = 8.0 * T + add_height - fit;
 right_holder_height = 5.0 * T + add_depth;
 
 right_runner_width  = 6.0 * T + add_height;
 right_runner_height = 7.0 * T + add_depth;
 
-right_outer_width  =  8.0 * T + add_height;
+right_outer_width  =  8.0 * T + add_height - fit;
 right_outer_height =  9.0 * T + add_depth;
 
 top_holder_width  = 11.0 * T + add_width;
-top_holder_height =  8.0 * T + add_height;
+top_holder_height =  8.0 * T + add_height - fit;
 
 top_runner_width  = 13.0 * T + add_width;
 top_runner_height =  6.0 * T + add_height;
 
 top_outer_width  = 15.0 * T + add_width;
-top_outer_height =  8.0 * T + add_height;
+top_outer_height =  8.0 * T + add_height - fit;
 
 bottom_holder_width  = 10.0 * T + add_width;
-bottom_holder_height =  8.0 * T + add_height;
+bottom_holder_height =  8.0 * T + add_height - fit;
 
 bottom_runner_width  = 12.0 * T + add_width;
 bottom_runner_height =  6.0 * T + add_height;
 
 bottom_outer_width  = 14.0 * T + add_width;
-bottom_outer_height =  8.0 * T + add_height;
+bottom_outer_height =  8.0 * T + add_height - fit;
 
 
 def finger_box( x=0, y=0,
