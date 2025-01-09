@@ -310,7 +310,7 @@ def back( x=0, y=0 ):
                              width  = box_base_width,
                              stroke=layout_color ) );
     # box side cutouts
-    height = box_side_height;
+    height = box_side_width;
 
     y_tabs = int(height) // int(tab_interval) - 1;
     y_margin = (height- y_tabs * tab_interval ) / 2.0;
@@ -417,7 +417,7 @@ def front( x=0, y=0 ):
                              width  = box_base_width,
                              stroke=layout_color ) );
     # box side cutouts
-    height = box_side_height;
+    height = box_side_width;
 
     y_tabs = int(height) // int(tab_interval) - 1;
     y_margin = (height- y_tabs * tab_interval ) / 2.0;

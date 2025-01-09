@@ -12,3 +12,4 @@ modified to increase internal size of the puzzle box. Uses python3 and drawsvg.
 <br>pip3 install cairosvg
 
 <p>output is an svg file suitable for importing into lightburn or other laser cut software.
+<br>For some reason I have yet to determine, importing the SVG into lightburn is scaled 33%. To get the correct size, do an immediate (X-Y linked) scale by 300%.
