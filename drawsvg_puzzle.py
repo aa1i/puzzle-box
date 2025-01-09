@@ -174,7 +174,7 @@ def finger_box( x=0, y=0,
 
     if left_in:
         # down left side with in-pockets
-        p.L( x-kerf, y + y_margin );
+        p.L( x-kerf, y + y_margin - kerf );
         for y2 in range( y_tabs ):
             p.V(               y + y_margin +     y2*tab_interval + (tab_gap/2.0) + kerf );
             p.H( x + T - kerf );
@@ -182,7 +182,7 @@ def finger_box( x=0, y=0,
             p.H( x-kerf        );
     elif left_out:
         # down left side with out-tabs
-        p.L( x-kerf, y + y_margin );
+        p.L( x-kerf, y + y_margin - kerf );
         for y2 in range( y_tabs ):
             p.V(               y + y_margin +     y2*tab_interval + (tab_gap/2.0) - kerf );
             p.H( x - T - kerf );
@@ -192,7 +192,7 @@ def finger_box( x=0, y=0,
 
     if bottom_out:
         # across bottom with out-tabs
-        p.L( x + x_margin, y+height+kerf);
+        p.L( x + x_margin - kerf, y + height + kerf);
         for x2 in range( x_tabs):
             p.H( x + x_margin +     x2*tab_interval + (tab_gap/2.0) - kerf);
             p.V( y + height + T + kerf );
@@ -200,31 +200,31 @@ def finger_box( x=0, y=0,
             p.V( y + height + kerf );
     elif bottom_in:
         raise ValueError;
-    p.L( x+width+kerf, y+height+kerf);
+    p.L( x + width + kerf, y + height + kerf);
 
     if right_in:
         # up right side with in-pockets
-        p.L( x+width, y+height - y_margin);
+        p.L( x + width + kerf, y + height - y_margin - kerf );
         for y2 in range( y_tabs):
-            p.V( y + height - y_margin -     y2*tab_interval - (tab_gap/2.0) + kerf);
-            p.H( x + width - T - kerf);
-            p.V( y + height - y_margin - (y2+1)*tab_interval + (tab_gap/2.0) - kerf);
-            p.H( x + width);
+            p.V( y + height - y_margin -     y2*tab_interval - (tab_gap/2.0) - kerf);
+            p.H( x + width - T + kerf);
+            p.V( y + height - y_margin - (y2+1)*tab_interval + (tab_gap/2.0) + kerf);
+            p.H( x + width + kerf );
     elif right_out:
         raise ValueError;
-    p.L( x+width, y);
+    p.L( x + width + kerf, y - kerf);
 
     if top_out:
         # across top with out-tabs
-        p.L( x+width - x_margin, y );
+        p.L( x + width - x_margin + kerf , y - kerf );
         for x2 in range( x_tabs):
             p.H( x + width - x_margin -    x2*tab_interval - (tab_gap/2.0) + kerf );
-            p.V( y - T + kerf );
+            p.V( y - T - kerf );
             p.H( x + width - x_margin - (x2+1)*tab_interval + (tab_gap/2.0) - kerf );
-            p.V( y );
+            p.V( y - kerf );
     elif top_in:
         raise ValueError;
-    p.L( x, y);
+    p.L( x - kerf, y - kerf );
     
     p.Z(); # closepath
 
