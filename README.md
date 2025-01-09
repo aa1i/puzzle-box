@@ -1,7 +1,7 @@
 # puzzle-box
 Japanese Puzzle Box laser cut files and source
 
-<p>Inspired by https://www.thingiverse.com/thing:17670, which was inspired by http://homepage.ntlworld.com/bruce.viney/The%20Matchbox%20T-plans.pdf
+<p>Inspired by https://www.thingiverse.com/thing:17670, which was inspired by https://tinyurl.com/y98arvbx
 
 modified to increase internal size of the puzzle box. Uses python3 and drawsvg.
 
