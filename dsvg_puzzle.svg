@@ -39,6 +39,78 @@
 <g id="side_rail" fill="none" stroke="black" stroke-width="0.1">
 <path d="M219.9,39.9 L219.9,43.0 L225.9,43.0 H228.9 V46.0 H235.1 V43.0 H240.9 V46.0 H247.1 V43.0 L256.1,43.0 L256.1,39.9 L219.9,39.9 Z" />
 </g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="160" y="160" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="170" y="160" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="180" y="160" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="190" y="160" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="200" y="160" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="210" y="160" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="160" y="170" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="170" y="170" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="180" y="170" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="190" y="170" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="200" y="170" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="210" y="170" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="160" y="180" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="170" y="180" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="180" y="180" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="190" y="180" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="200" y="180" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="210" y="180" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="225" y="278" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="235" y="278" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="245" y="278" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="255" y="278" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="265" y="278" width="9.0" height="9.0" stroke="green" />
+</g>
+<g id="tennon" fill="none" stroke="green" stroke-width="0.1">
+<rect x="275" y="278" width="9.0" height="9.0" stroke="green" />
+</g>
 <g id="back" fill="none" stroke="black" stroke-width="0.1">
 <rect x="5" y="60" width="122.0" height="48.0" stroke="black" />
 <rect x="8.0" y="69.0" width="2.9" height="36.0" stroke="red" />
@@ -117,62 +189,86 @@
 </g>
 <g id="left_hold" fill="none" stroke="black" stroke-width="0.1">
 <rect x="5" y="110" width="47.9" height="33.0" stroke="black" />
+<rect x="11.0" y="122.0" width="3.0" height="9.0" stroke="green" />
+<rect x="43.9" y="122.0" width="3.0" height="9.0" stroke="green" />
 <text x="23.95" y="126.5" font-size="3" stroke="blue">L hold</text>
 </g>
 <g id="left_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="60" y="110" width="42.0" height="39.0" stroke="black" />
 <rect x="57.0" y="113.0" width="47.9" height="33.0" stroke="red" />
+<rect x="63.0" y="125.0" width="3.0" height="9.0" stroke="green" />
+<rect x="96.0" y="125.0" width="3.0" height="9.0" stroke="green" />
 <text x="76.0" y="129.5" font-size="3" stroke="blue">L run</text>
 </g>
 <g id="left_out" fill="none" stroke="black" stroke-width="0.1">
 <rect x="110" y="110" width="47.9" height="48.0" stroke="black" />
 <rect x="113.0" y="113.0" width="42.0" height="39.0" stroke="red" />
 <rect x="110" y="116.0" width="47.9" height="33.0" stroke="red" />
+<rect x="116.0" y="128.0" width="3.0" height="9.0" stroke="green" />
+<rect x="148.9" y="128.0" width="3.0" height="9.0" stroke="green" />
 <text x="128.95" y="134.0" font-size="3" stroke="blue">L out</text>
 </g>
 <g id="right_hold" fill="none" stroke="black" stroke-width="0.1">
 <rect x="110" y="160" width="47.9" height="33.0" stroke="black" />
+<rect x="116.0" y="172.0" width="3.0" height="9.0" stroke="green" />
+<rect x="148.9" y="172.0" width="3.0" height="9.0" stroke="green" />
 <text x="128.95" y="176.5" font-size="3" stroke="blue">R hold</text>
 </g>
 <g id="right_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="60" y="150" width="42.0" height="39.0" stroke="black" />
 <rect x="57.0" y="153.0" width="47.9" height="33.0" stroke="red" />
+<rect x="63.0" y="165.0" width="3.0" height="9.0" stroke="green" />
+<rect x="96.0" y="165.0" width="3.0" height="9.0" stroke="green" />
 <text x="76.0" y="169.5" font-size="3" stroke="blue">R run</text>
 </g>
 <g id="right_out" fill="none" stroke="black" stroke-width="0.1">
 <rect x="5" y="145" width="47.9" height="45.0" stroke="black" />
 <rect x="8.0" y="148.0" width="42.0" height="39.0" stroke="red" />
 <rect x="5" y="151.0" width="47.9" height="33.0" stroke="red" />
+<rect x="11.0" y="163.0" width="3.0" height="9.0" stroke="green" />
+<rect x="43.9" y="163.0" width="3.0" height="9.0" stroke="green" />
 <text x="23.95" y="167.5" font-size="3" stroke="blue">R out</text>
 </g>
 <g id="top_hold" fill="none" stroke="black" stroke-width="0.1">
 <rect x="5" y="195" width="107.0" height="47.9" stroke="black" />
+<rect x="8.0" y="214.45" width="3.0" height="9.0" stroke="green" />
+<rect x="106.0" y="214.45" width="3.0" height="9.0" stroke="green" />
 <text x="53.5" y="218.95" font-size="3" stroke="blue">T hold</text>
 </g>
 <g id="top_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="115" y="197" width="113.0" height="42.0" stroke="black" />
 <rect x="118.0" y="194.0" width="107.0" height="47.9" stroke="red" />
+<rect x="121.0" y="213.5" width="3.0" height="9.0" stroke="green" />
+<rect x="219.0" y="213.5" width="3.0" height="9.0" stroke="green" />
 <text x="166.5" y="218.0" font-size="3" stroke="blue">T run</text>
 </g>
 <g id="top_out" fill="none" stroke="black" stroke-width="0.1">
 <rect x="160" y="110" width="119.0" height="47.9" stroke="black" />
 <rect x="163.0" y="113.0" width="113.0" height="42.0" stroke="red" />
 <rect x="166.0" y="110" width="107.0" height="47.9" stroke="red" />
+<rect x="169.0" y="129.45" width="3.0" height="9.0" stroke="green" />
+<rect x="267.0" y="129.45" width="3.0" height="9.0" stroke="green" />
 <text x="214.5" y="133.95" font-size="3" stroke="blue">T out</text>
 </g>
 <g id="bottom_hold" fill="none" stroke="black" stroke-width="0.1">
 <rect x="5" y="245" width="104.0" height="47.9" stroke="black" />
+<rect x="8.0" y="264.45" width="3.0" height="9.0" stroke="green" />
+<rect x="103.0" y="264.45" width="3.0" height="9.0" stroke="green" />
 <text x="52.0" y="268.95" font-size="3" stroke="blue">B hold</text>
 </g>
 <g id="bottom_run" fill="none" stroke="black" stroke-width="0.1">
 <rect x="112" y="247" width="110.0" height="42.0" stroke="black" />
 <rect x="115.0" y="244.0" width="104.0" height="47.9" stroke="red" />
+<rect x="118.0" y="263.5" width="3.0" height="9.0" stroke="green" />
+<rect x="213.0" y="263.5" width="3.0" height="9.0" stroke="green" />
 <text x="162.0" y="268.0" font-size="3" stroke="blue">B run</text>
 </g>
 <g id="bottom_out" fill="none" stroke="black" stroke-width="0.1">
 <rect x="230" y="160" width="47.9" height="116.0" stroke="black" />
 <rect x="233.0" y="163.0" width="42.0" height="110.0" stroke="red" />
 <rect x="230" y="166.0" width="47.9" height="104.0" stroke="red" />
+<rect x="249.45" y="169.0" width="9.0" height="3.0" stroke="green" />
+<rect x="249.45" y="264.0" width="9.0" height="3.0" stroke="green" />
 <text x="253.95" y="213.0" font-size="3" stroke="blue">B out</text>
 </g>
 </svg>

@@ -8,6 +8,7 @@ fit = 0.1; # extra space for improved fit
 cut_color = 'black'
 label_color = 'blue'
 layout_color = 'red'
+mortise_color = 'green'
 
 labels = True;
 save_png = True;
@@ -485,6 +486,10 @@ def left_holder( x=0, y=0 ):
 
     g.append(draw.Rectangle( x = x, y = y, width = width, height = height, stroke=cut_color));
     
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+2*T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 2*T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("L hold", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -503,6 +508,10 @@ def left_runner( x=0, y=0 ):
     # construction layout guides
     g.append(draw.Rectangle( x = x-T, y = y+T, width = left_holder_width, height = left_holder_height, stroke=layout_color));
 
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+ T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("L run", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -522,6 +531,10 @@ def left_outer( x=0, y=0 ):
     g.append(draw.Rectangle( x = x+T, y = y+    T, width = left_runner_width, height = left_runner_height, stroke=layout_color));
     g.append(draw.Rectangle( x = x,   y = y+2.0*T, width = left_holder_width, height = left_holder_height, stroke=layout_color));
     
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+2*T, y = y+((height-4*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 2*T - T, y = y+((height-4*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("L out", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -536,6 +549,10 @@ def right_holder( x=0, y=0 ):
     g = draw.Group(id='right_hold', fill='none', stroke=cut_color, stroke_width = 0.1);
 
     g.append(draw.Rectangle( x = x, y = y, width = width, height = height, stroke=cut_color));
+    
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+2*T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 2*T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
     
     if labels:
         g.append(draw.Text("R hold", font_size=3,
@@ -555,6 +572,10 @@ def right_runner( x=0, y=0 ):
     # construction layout guides
     g.append(draw.Rectangle( x = x-T, y = y+T, width = right_holder_width, height = right_holder_height, stroke=layout_color));
 
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+ T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("R run", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -574,6 +595,10 @@ def right_outer( x=0, y=0 ):
     g.append(draw.Rectangle( x = x+T, y = y+    T, width = right_runner_width, height = right_runner_height, stroke=layout_color));
     g.append(draw.Rectangle( x = x,   y = y+2.0*T, width = right_holder_width, height = right_holder_height, stroke=layout_color));
     
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+2*T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 2*T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("R out", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -588,6 +613,10 @@ def top_holder( x=0, y=0 ):
     g = draw.Group(id='top_hold', fill='none', stroke=cut_color, stroke_width = 0.1);
 
     g.append(draw.Rectangle( x = x, y = y, width = width, height = height, stroke=cut_color));
+    
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+ T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
     
     if labels:
         g.append(draw.Text("T hold", font_size=3,
@@ -607,6 +636,10 @@ def top_runner( x=0, y=0 ):
     # construction layout guides
     g.append(draw.Rectangle( x = x+T, y = y-T, width = top_holder_width, height = top_holder_height, stroke=layout_color));
 
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+2*T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 2*T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("T run", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -625,6 +658,10 @@ def top_outer( x=0, y=0 ):
     # construction layout guides
     g.append(draw.Rectangle( x = x+T, y = y+T, width = top_runner_width, height = top_runner_height, stroke=layout_color));
     g.append(draw.Rectangle( x = x+2.0*T, y = y, width = top_holder_width, height = top_holder_height, stroke=layout_color));
+
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+3*T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 3*T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
     
     if labels:
         g.append(draw.Text("T out", font_size=3,
@@ -640,6 +677,10 @@ def bottom_holder( x=0, y=0 ):
     g = draw.Group(id='bottom_hold', fill='none', stroke=cut_color, stroke_width = 0.1);
 
     g.append(draw.Rectangle( x = x, y = y, width = width, height = height, stroke=cut_color));
+    
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
     
     if labels:
         g.append(draw.Text("B hold", font_size=3,
@@ -659,6 +700,10 @@ def bottom_runner( x=0, y=0 ):
     # construction layout guides
     g.append(draw.Rectangle( x = x+T, y = y-T, width = bottom_holder_width, height = bottom_holder_height, stroke=layout_color));
 
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( x = x+2*T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( x = x+width - 2*T - T, y = y+((height-3*T)/2), width = T, height = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("B run", font_size=3,
                            x=x+width/2.0 - 5.0, y=y+height/2.0,
@@ -679,10 +724,25 @@ def bottom_outer( x=0, y=0 ):
     g.append(draw.Rectangle( y = x+T, x = y+T, height = bottom_runner_width, width = bottom_runner_height, stroke=layout_color));
     g.append(draw.Rectangle( y = x+2.0*T, x = y, height = bottom_holder_width, width = bottom_holder_height, stroke=layout_color));
     
+    # mortises for contruction alignment tenons
+    g.append(draw.Rectangle( y = x+3*T, x = y+((height-3*T)/2), height = T, width = 3*T, stroke=mortise_color));
+    g.append(draw.Rectangle( y = x+width - 3*T - T, x = y+((height-3*T)/2), height = T, width = 3*T, stroke=mortise_color));
+    
     if labels:
         g.append(draw.Text("B out", font_size=3,
                            y=x+width/2.0 - 5.0, x=y+height/2.0,
                            stroke=label_color ))
+    return g;
+
+def tennon( x=0, y=0 ):
+
+    width  = 3 * T;
+    height = 3 * T;
+    
+    g = draw.Group(id='tennon', fill='none', stroke=mortise_color, stroke_width = 0.1);
+
+    g.append(draw.Rectangle( x = x, y = y, width = width, height = height, stroke=mortise_color));
+
     return g;
 
 
@@ -704,6 +764,33 @@ d.append( side_rail( 182,33 ) );
 d.append( side_rail( 182,40 ) );
 d.append( side_rail( 220,33 ) );
 d.append( side_rail( 220,40 ) );
+d.append( tennon( 160,160 ) );
+d.append( tennon( 170,160 ) );
+d.append( tennon( 180,160 ) );
+d.append( tennon( 190,160 ) );
+d.append( tennon( 200,160 ) );
+d.append( tennon( 210,160 ) );
+
+d.append( tennon( 160,170 ) );
+d.append( tennon( 170,170 ) );
+d.append( tennon( 180,170 ) );
+d.append( tennon( 190,170 ) );
+d.append( tennon( 200,170 ) );
+d.append( tennon( 210,170 ) );
+
+d.append( tennon( 160,180 ) );
+d.append( tennon( 170,180 ) );
+d.append( tennon( 180,180 ) );
+d.append( tennon( 190,180 ) );
+d.append( tennon( 200,180 ) );
+d.append( tennon( 210,180 ) );
+
+d.append( tennon( 225,278 ) );
+d.append( tennon( 235,278 ) );
+d.append( tennon( 245,278 ) );
+d.append( tennon( 255,278 ) );
+d.append( tennon( 265,278 ) );
+d.append( tennon( 275,278 ) );
 
 d.append( back(5, 60 ) );
 d.append( front(130, 60 ) );
